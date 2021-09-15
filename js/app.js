@@ -7,8 +7,6 @@ $(document).ready(function(){
        $("#prix_value").html( $("#prix").val());
     $("#quantite").on("input",function(){
         $("#quantite_value").html( $("#quantite").val());
-        
-       
     });
     $("#taille").on("change",function(){
         $("#taille_value").html( $("#taille").val());
